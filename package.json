@@ -1,0 +1,21 @@
+{
+  "name": "cartex",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.ts",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup" 
+  },
+  "keywords": [
+    "cartex",
+    "ziqx"
+  ],
+  "author": "Ziqx",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
