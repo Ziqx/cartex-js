@@ -7,7 +7,7 @@ export default class Cartex {
 export interface CartexConfigs {
   ziqx: { appkey: string; url?: string };
   dev?: { port?: number };
-  site: { title: string; logo?: string; description?: string };
+  site: { title: string; homeUrl: string; logo?: string; description?: string };
   server: {
     api: string;
     root: {
