@@ -22,6 +22,7 @@ Required Parameters:
 | isDev | false |
 
 
+
 ```ts
 const gateway = new PhonepeGateway({
     merchantId,

@@ -3,3 +3,6 @@ export default class Cartex {
     console.log("🧺 Cartex Initiated");
   }
 }
+
+export type { CartexConfigs } from "./configs";
+export { PhonepeGateway } from "./payment";

@@ -1,4 +1,4 @@
-export default interface CartexConfigs {
+export interface CartexConfigs {
   ziqx: { appkey: string; url?: string };
   dev?: { port?: number };
   site: { title: string; homeUrl: string; logo?: string; description?: string };
@@ -12,9 +12,9 @@ export default interface CartexConfigs {
   payments?: {
     gateway: {
       provider: "phonepe";
-      merchantId?: string;
-      saltKey?: string;
-      redirectUrl?: string;
+      merchantId: string;
+      saltKey: string;
+      redirectUrl: string;
       callbackUrl?: string;
       isDev?: boolean;
     };
