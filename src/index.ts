@@ -15,5 +15,12 @@ export interface CartexConfigs {
       dev: string;
     };
   };
+  payments?: {
+    gateway: {
+      provider: "phonepe";
+      merchantId: string;
+      saltKey: string;
+    };
+  };
   theme: { primary: string; secondary?: string };
 }
