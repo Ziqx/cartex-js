@@ -20,6 +20,9 @@ export interface CartexConfigs {
       provider: "phonepe";
       merchantId: string;
       saltKey: string;
+      redirectUrl: string;
+      callbackUrl?: string;
+      isDev?: boolean;
     };
   };
   theme: { primary: string; secondary?: string };
