@@ -9,14 +9,35 @@ export interface CartexConfigs {
       dev: string;
     };
   };
-  payments?: {
-    gateway: {
+  payments: {
+    currency: {
+      default: "INR" | "USD" | "AED" | "SAR";
+      symbol: string;
+    };
+    gateway?: {
       provider: "phonepe";
       merchantId: string;
       saltKey: string;
       redirectUrl: string;
       callbackUrl?: string;
       isDev?: boolean;
+    };
+  };
+  docs: {
+    entityName: string;
+    address: string;
+    email: string;
+    terms: {
+      updatedAt: string;
+      email?: string;
+    };
+    privacy: {
+      updatedAt: string;
+      email?: string;
+    };
+    refund: {
+      updatedAt: string;
+      email?: string;
     };
   };
   theme: { primary: string; secondary?: string };
